@@ -9,14 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="static/images/logos/ldalogoresum.jpeg" type="image/x-icon">
 
     <title>LDA</title>
 </head>
 <body class="font-[Poppins]">
     <style>
         html{
-            touch-action: none;
-            zoom: 100%;
+            scroll-behavior: smooth;
         }
     </style>
    <!--navbar-->
@@ -27,21 +27,21 @@
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a href="#" class="mr-5 hover:text-violet-900">Home</a>
-            <a href="#" class="mr-5 hover:text-violet-900">Sobre nós</a>
-            <a href="#"  class="mr-5 hover:text-violet-900">Feitos</a>
-            <a href="#"  class="mr-5 hover:text-violet-900">Integrantes</a>
-            <a href="#"  class="mr-5 hover:text-violet-900">Contate-nos</a>
+            <a href="#sobre" class="mr-5 hover:text-violet-900">Sobre nós</a>
+            <a href="#feitos"  class="mr-5 hover:text-violet-900">Feitos</a>
+            <a href="#integrantes"  class="mr-5 hover:text-violet-900">Integrantes</a>
+            <a href="#contate-nos"  class="mr-5 hover:text-violet-900">Contate-nos</a>
           </nav>
         </div>
       </header>
   <!--navbar-->
 <img class="h-auto max-w-full" src="static/images/fotos/Design sem nome (2).png" alt="image description" width="1800px">
 <br>
-<section class="text-gray-600 body-font ">
+<section id="sobre" class="text-gray-600 body-font ">
     <div class="container mx-auto flex px-16 py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Sobre os
-          <br class="hidden lg:inline-block  ">Lideres do amanha
+          <br class="hidden lg:inline-block ">Lideres do amanha
         </h1>
         <p class="mb-8 leading-relaxed">Liderado por Tarcísio e Kethelyn, nossa grande equipe está focada em transformar a escola com inovação e projetos sociais. Siga-nos no Instagram e junte-se à mudança!</p>
         <div class="flex justify-center">
@@ -54,19 +54,19 @@
     </div>
   </section>
  <!--noticias-->
-  <section class=" bg-gray-100 text-gray-600 body-font">
+  <section id="feitos" class=" bg-gray-100 text-gray-600 body-font">
     <div class="container px-16 py-24 mx-auto">
       <div class="flex flex-wrap w-full mb-20">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Veja nossos feitos</h1>
-          <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+          <h1 class=" text-indigo-500 sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Veja nossos feitos</h1>
+          <div class="h-1 w-20 bg-black rounded"></div>
         </div>
         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Descubra as últimas notícias do Gremio Líderes do Amanhã. Mantenha-se informado sobre nossos projetos, eventos e conquistas. Fique conectado!</p>
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/fotodevitoria.jpeg" alt="content">
             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Vitória</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Ganhamos as eleições!</h2>
             <p class="leading-relaxed text-base">Conseguimos mais da metade dos votos da escola sobre outras chapas</p>
@@ -74,7 +74,7 @@
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/palestrasicred.jpeg" alt="content">
             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Palestra</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Palestra para o  1°EM</h2>
             <p class="leading-relaxed text-base">Nós promovemos uma palestra para o 1°EM sobre educação financeira em parceria com o Sicredi</p>
@@ -90,7 +90,7 @@
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/showdetalentos.jpeg" alt="content">
             <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Show de talentos</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Vamos promover a semana de arte na escola</h2>
             <p class="leading-relaxed text-base">Em Outubro vamos promover a 1° Semana de Arte na Escola e um Show de Talentos</p>
@@ -101,7 +101,7 @@
   </section>
 
     
-  
+  <section id="integrantes">
   <div class="bg-gray-50 dark:bg-gray-800 py-20">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
       <div class="mb-16">
@@ -112,6 +112,7 @@
         </p>
       </div>
       <div class="grid items-center gap-12 md:grid-cols-3">
+        <!--------------------------------------------------------------------->
         <div class="space-y-4 text-center">
           <img
             class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
@@ -136,8 +137,8 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Jonathan Doe</h4>
-            <span class="block text-sm text-gray-500">Chief Technical Officer</span>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Kethelyn Luz</h4>
+            <span class="block text-sm text-gray-500">Vice-presidente</span>
           </div>
         </div>
         <div class="space-y-4 text-center">
@@ -150,19 +151,10 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Anabelle Doe</h4>
-            <span class="block text-sm text-gray-500">Chief Operations Officer</span>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Thiago Zaneti</h4>
+            <span class="block text-sm text-gray-500">Diretor da comunicação</span>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-   <!--fim da primeira divisao-->
-   
-   
-   <div class="bg-gray-50 dark:bg-gray-800 py-20">
-    <div class="container mx-auto px-6 md:px-12 xl:px-32">
-      <div class="grid items-center gap-12 md:grid-cols-3">
         <div class="space-y-4 text-center">
           <img
             class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
@@ -173,14 +165,98 @@
             height="805"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Hentoni Doe</h4>
-            <span class="block text-sm text-gray-500">CEO-Founder</span>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Joana Ferreira</h4>
+            <span class="block text-sm text-gray-500">Diretora da cultura</span>
           </div>
         </div>
         <div class="space-y-4 text-center">
           <img
             class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
             src="static/images/fotos/joanna.jpeg"
+            alt="man"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Joanna Beatriz</h4>
+            <span class="block text-sm text-gray-500">Vice diretora do social</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+            src="static/images/fotos/kauan.jpeg"
+            alt="woman"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Kauã Fortunato</h4>
+            <span class="block text-sm text-gray-500">Vice diretor do esporte</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+            src="static/images/fotos/calatroia.jpeg"
+            alt="woman"
+            loading="lazy"
+            width="640"
+            height="805"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Isabela Domingues</h4>
+            <span class="block text-sm text-gray-500">Vice-diretora da cultura</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+            src="static/images/fotos/josecarlos.jpeg"
+            alt="man"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white"> José Carlos Teixeira</h4>
+            <span class="block text-sm text-gray-500">Vice- diretor da saúde e do meio ambiente</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+            src="static/images/fotos/livia.jpeg"
+            alt="woman"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Anabelle Doe</h4>
+            <span class="block text-sm text-gray-500">Chief Operations Officer</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+            src="static/images/fotos/laurinha.jpeg"
+            alt="woman"
+            loading="lazy"
+            width="640"
+            height="805"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Laura dos Santos</h4>
+            <span class="block text-sm text-gray-500">Vice diretora da comunicação</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+            src="static/images/fotos/vitin.jpeg"
             alt="man"
             loading="lazy"
             width="1000"
@@ -194,72 +270,166 @@
         <div class="space-y-4 text-center">
           <img
             class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
-            src="static/images/fotos/kauan.jpeg"
+            src="static/images/fotos/giovana.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Anabelle Doe</h4>
-            <span class="block text-sm text-gray-500">Chief Operations Officer</span>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Giovanna de Castro</h4>
+            <span class="block text-sm text-gray-500">Diretora da política</span>
           </div>
         </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+            src="static/images/fotos/manu.jpeg"
+            alt="woman"
+            loading="lazy"
+            width="640"
+            height="805"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Hentoni Doe</h4>
+            <span class="block text-sm text-gray-500">CEO-Founder</span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+            src="static/images/fotos/miron.jpeg"
+            alt="man"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Maria Eduarda Miron </h4>
+            <span class="block text-sm text-gray-500">Diretora do esporte 
+            </span>
+          </div>
+        </div>
+        <div class="space-y-4 text-center">
+          <img
+            class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
+            src="static/images/fotos/lyvia.jpeg"
+            alt="woman"
+            loading="lazy"
+            width="1000"
+            height="667"
+          />
+          <div>
+            <h4 class="text-2xl text-gray-700 dark:text-white">Lyvia Eduarda Barbosa</h4>
+            <span class="block text-sm text-gray-500">Diretora Social</span>
+          </div>
+        </div>
+        
       </div>
     </div>
   </div>
-     <!--fim da segunda card-->  
-     
-     <div class="bg-gray-50 dark:bg-gray-800 py-20">
-      <div class="container mx-auto px-6 md:px-12 xl:px-32">
-        <div class="grid items-center gap-12 md:grid-cols-3">
-          <div class="space-y-4 text-center">
-            <img
-              class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
-              src="images/woman1.jpg"
-              alt="woman"
-              loading="lazy"
-              width="640"
-              height="805"
-            />
-            <div>
-              <h4 class="text-2xl text-gray-700 dark:text-white">Hentoni Doe</h4>
-              <span class="block text-sm text-gray-500">CEO-Founder</span>
+  <div class="space-y-4 text-center">
+    <img
+      class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
+      src="static/images/fotos/WhatsApp Image 2023-09-18 at 10.44.59.jpeg"
+      alt="man"
+      loading="lazy"
+      width="1000"
+      height="667"
+    />
+    <div>
+      <h4 class="text-2xl text-gray-700 dark:text-white">Luis Fernando Truculo </h4>
+      <span class="block text-sm text-gray-500">Secretário geral
+      </span>
+    </div>
+  </div>
+        <!--------------------------------00------------------------------------->
+      </div>
+    </div>
+  </div>
+</section>
+  <!--------------------------------------------------------------------->
+  <section id="contate-nos" class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-indigo-500">Contate-nos</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Ficou com alguma dúvida? Se sim, mande uma mensagem para nós!</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Nome</label>
+              <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
-          <div class="space-y-4 text-center">
-            <img
-              class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
-              src="images/man.jpg"
-              alt="man"
-              loading="lazy"
-              width="1000"
-              height="667"
-            />
-            <div>
-              <h4 class="text-2xl text-gray-700 dark:text-white">Jonathan Doe</h4>
-              <span class="block text-sm text-gray-500">Chief Technical Officer</span>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
-          <div class="space-y-4 text-center">
-            <img
-              class="mx-auto h-64 w-64 rounded-xl object-cover md:h-40 md:w-40 lg:h-64 lg:w-64"
-              src="images/woman.jpg"
-              alt="woman"
-              loading="lazy"
-              width="1000"
-              height="667"
-            />
-            <div>
-              <h4 class="text-2xl text-gray-700 dark:text-white">Anabelle Doe</h4>
-              <span class="block text-sm text-gray-500">Chief Operations Officer</span>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Mensagem</label>
+              <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
             </div>
+          </div>
+          <div class="p-2 w-full">
+            <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Enviar</button>
+          </div>
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <span class="inline-flex">
+            </span>
           </div>
         </div>
       </div>
     </div>
-                                        
-  
+  </section>
+  <footer class="text-gray-600  body-font">
+    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img src="static/images/logos/logolideres.jpeg" alt="erro">
+        </a>
+        <p class="mt-2 text-sm text-gray-500">Obrigado pela sua presença em nosso site!</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIAS</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+            </li>
+            <li>
+              <a href="#sobre" class="text-gray-600 hover:text-gray-800">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#feitos" class="text-gray-600 hover:text-gray-800">Feitos</a>
+            </li>
+            <li>
+              <a href="#integrantes" class="text-gray-600 hover:text-gray-800">integrantes</a>
+            </li>
+            <li>
+              <a href="#contate-nos" class="text-gray-600 hover:text-gray-800">Contate-nos</a>
+            </li>
+          </nav>
+        </div>
+
+        
+        
+      </div>
+    </div>
+    <div class="bg-gray-100">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 LDA —
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+         
+        </span>
+      </div>
+    </div>
+  </footer>
   
 </body>
 </html>
