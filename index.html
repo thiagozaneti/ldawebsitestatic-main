@@ -10,6 +10,8 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="static/images/logos/ldalogoresum.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/js/script.js">
 
     <title>LDA</title>
 </head>
@@ -17,6 +19,9 @@
     <style>
         html{
             scroll-behavior: smooth;
+        }
+        .div-car{
+            margin: 0 auto;
         }
     </style>
    <!--navbar-->
@@ -45,7 +50,7 @@
         </h1>
         <p class="mb-8 leading-relaxed">Liderado por Tarcísio e Kethelyn, nossa grande equipe está focada em transformar a escola com inovação e projetos sociais. Siga-nos no Instagram e junte-se à mudança!</p>
         <div class="flex justify-center">
-          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"> <span></span> Instagram</button>
+          <a href="https://instagram.com/lideresdoamanhasesi?igshid=NzZlODBkYWE4Ng=="class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Instagram</a>
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded-lg">
@@ -54,7 +59,7 @@
     </div>
   </section>
  <!--noticias-->
-  <section id="feitos" class=" bg-gray-100 text-gray-600 body-font">
+  <section id="feitos" class=" bg-gray-100 text-gray-600 body-font m-0 auto">
     <div class="container px-16 py-24 mx-auto">
       <div class="flex flex-wrap w-full mb-20">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -63,46 +68,38 @@
         </div>
         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Descubra as últimas notícias do Gremio Líderes do Amanhã. Mantenha-se informado sobre nossos projetos, eventos e conquistas. Fique conectado!</p>
       </div>
-      <div class="flex flex-wrap -m-4">
-        <div class="xl:w-1/4 md:w-1/2 p-4">
-          <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/fotodevitoria.jpeg" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Vitória</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Ganhamos as eleições!</h2>
-            <p class="leading-relaxed text-base">Conseguimos mais da metade dos votos da escola sobre outras chapas</p>
-          </div>
-        </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
-          <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/palestrasicred.jpeg" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Palestra</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Palestra para o  1°EM</h2>
-            <p class="leading-relaxed text-base">Nós promovemos uma palestra para o 1°EM sobre educação financeira em parceria com o Sicredi</p>
-          </div>
-        </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
-          <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/podissomirka-comfundo.jpg" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Podcast</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Desenvolvimento de um podcast</h2>
-            <p class="leading-relaxed text-base">Estamos desenvolvendo o "Pod Isso Mirka" o podcast dos alunos... Aguarde!</p>
-          </div>
-        </div>
-        <div class="xl:w-1/4 md:w-1/2 p-4">
-          <div class="bg-gray-100 p-6 rounded-lg">
-            <img class="h-40 rounded w-full object-cover object-center mb-6" src="static/images/fotos/showdetalentos.jpeg" alt="content">
-            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Show de talentos</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Vamos promover a semana de arte na escola</h2>
-            <p class="leading-relaxed text-base">Em Outubro vamos promover a 1° Semana de Arte na Escola e um Show de Talentos</p>
-          </div>
-        </div>
+      <div class="wrapper div-car ">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card ">
+            <div class="img "><img src="static/images/fotos/fotodevitoria.jpeg" alt="img" draggable="false"></div>
+            <h2>Ganhamos as eleições</h2>
+            <span class="text-center p-2">Ganhamos as eleições da escola com a maioria de votos sobre outras chapas</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="static/images/fotos/palestrasicred.jpeg" alt="img" draggable="false"></div>
+            <h2>Palestra da sicred</h2>
+            <span class="text-center p-2">Organizamos uma palestra da sicred para o 1 ano do ensino médio</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="static/images/fotos/podissomirka-comfundo.jpg" alt="img" draggable="false"></div>
+            <h2>Pod isso mirka?</h2>
+            <span class="text-center p-2">Estamos desenvolvendo um podcast para toda a escola, com nome "Pod isso mirka?"</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="static/images/fotos/showdetalentos.jpeg" alt="img" draggable="false"></div>
+            <h2>Show de talentos</h2>
+            <span class="text-center p-2">Estamos criando um show de talentos para a escola, será divulgado em breve!</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
       </div>
     </div>
   </section>
 
     
   <section id="integrantes">
-  <div class="bg-gray-50 dark:bg-gray-800 py-20">
+  <div class="bg-gray-50 py-20">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
       <div class="mb-16">
         <h2 class="mb-4 text-center text-2xl font-bold text-indigo-500 dark:text-white md:text-4xl">
@@ -123,7 +120,7 @@
             height="805"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Tarcisio de Freitas</h4>
+            <h4 class="text-2xl text-gray-700 ">Tarcisio de Freitas</h4>
             <span class="block text-sm text-gray-500">Presidente da chapa</span>
           </div>
         </div>
@@ -137,7 +134,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Kethelyn Luz</h4>
+            <h4 class="text-2xl text-gray-700 ">Kethelyn Luz</h4>
             <span class="block text-sm text-gray-500">Vice-presidente</span>
           </div>
         </div>
@@ -151,7 +148,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Thiago Zaneti</h4>
+            <h4 class="text-2xl text-gray-700 ">Thiago Zaneti</h4>
             <span class="block text-sm text-gray-500">Diretor da comunicação</span>
           </div>
         </div>
@@ -165,7 +162,7 @@
             height="805"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Joana Ferreira</h4>
+            <h4 class="text-2xl text-gray-700">Joana Ferreira</h4>
             <span class="block text-sm text-gray-500">Diretora da cultura</span>
           </div>
         </div>
@@ -179,7 +176,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Joanna Beatriz</h4>
+            <h4 class="text-2xl text-gray-700 ">Joanna Beatriz</h4>
             <span class="block text-sm text-gray-500">Vice diretora do social</span>
           </div>
         </div>
@@ -193,7 +190,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Kauã Fortunato</h4>
+            <h4 class="text-2xl text-gray-700">Kauã Fortunato</h4>
             <span class="block text-sm text-gray-500">Vice diretor do esporte</span>
           </div>
         </div>
@@ -207,7 +204,7 @@
             height="805"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Isabela Domingues</h4>
+            <h4 class="text-2xl text-gray-700 ">Isabela Domingues</h4>
             <span class="block text-sm text-gray-500">Vice-diretora da cultura</span>
           </div>
         </div>
@@ -221,7 +218,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white"> José Carlos Teixeira</h4>
+            <h4 class="text-2xl text-gray-700 "> José Carlos Teixeira</h4>
             <span class="block text-sm text-gray-500">Vice- diretor da saúde e do meio ambiente</span>
           </div>
         </div>
@@ -235,8 +232,8 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Anabelle Doe</h4>
-            <span class="block text-sm text-gray-500">Chief Operations Officer</span>
+            <h4 class="text-2xl text-gray-700 ">Livia Cristini</h4>
+            <span class="block text-sm text-gray-500"> 1°Secretaria</span>
           </div>
         </div>
         <div class="space-y-4 text-center">
@@ -249,7 +246,7 @@
             height="805"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Laura dos Santos</h4>
+            <h4 class="text-2xl text-gray-700 ">Laura dos Santos</h4>
             <span class="block text-sm text-gray-500">Vice diretora da comunicação</span>
           </div>
         </div>
@@ -263,8 +260,8 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Jonathan Doe</h4>
-            <span class="block text-sm text-gray-500">Chief Technical Officer</span>
+            <h4 class="text-2xl text-gray-700 ">Vitor Hugo</h4>
+            <span class="block text-sm text-gray-500">Vice- diretor da política</span>
           </div>
         </div>
         <div class="space-y-4 text-center">
@@ -277,7 +274,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Giovanna de Castro</h4>
+            <h4 class="text-2xl text-gray-700 ">Giovanna de Castro</h4>
             <span class="block text-sm text-gray-500">Diretora da política</span>
           </div>
         </div>
@@ -291,8 +288,8 @@
             height="805"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Hentoni Doe</h4>
-            <span class="block text-sm text-gray-500">CEO-Founder</span>
+            <h4 class="text-2xl text-gray-700 ">Manuela Borges</h4>
+            <span class="block text-sm text-gray-500">Diretora da Saúde e do Meio Ambiente</span>
           </div>
         </div>
         <div class="space-y-4 text-center">
@@ -305,7 +302,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Maria Eduarda Miron </h4>
+            <h4 class="text-2xl text-gray-700 ">Maria Eduarda Miron </h4>
             <span class="block text-sm text-gray-500">Diretora do esporte 
             </span>
           </div>
@@ -320,7 +317,7 @@
             height="667"
           />
           <div>
-            <h4 class="text-2xl text-gray-700 dark:text-white">Lyvia Eduarda Barbosa</h4>
+            <h4 class="text-2xl text-gray-700 ">Lyvia Eduarda Barbosa</h4>
             <span class="block text-sm text-gray-500">Diretora Social</span>
           </div>
         </div>
@@ -338,7 +335,7 @@
       height="667"
     />
     <div>
-      <h4 class="text-2xl text-gray-700 dark:text-white">Luis Fernando Truculo </h4>
+      <h4 class="text-2xl text-gray-700 ">Luis Fernando Truculo </h4>
       <span class="block text-sm text-gray-500">Secretário geral
       </span>
     </div>
@@ -431,5 +428,7 @@
     </div>
   </footer>
   
+
+<script src="static/js/script.js"></script>
 </body>
 </html>
